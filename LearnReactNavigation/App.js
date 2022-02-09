@@ -12,7 +12,7 @@ function App(){
   return (<NavigationContainer>
     <Stack.Navigator initialRouteName="Home"
                      //screenOptions={{}} // 이 옵션을 통해 모든 페이지의 속성 설정 가능. stack.screen의 options 과 같은 느낌.
-    />
+    >
       <Stack.Screen name="Home" 
                     component={HomeScreen}  
                     options={{
